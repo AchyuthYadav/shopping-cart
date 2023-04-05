@@ -75,7 +75,7 @@ class Products extends React.Component {
         <div className="product-label">Free Shipping</div>
         <img
           className="product-item-img"
-          src={`/public/products/${props.sku}_1.jpg`}
+          src={`products/${props.sku}_1.jpg`}
           alt={props.title}
         />
 
