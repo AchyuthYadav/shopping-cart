@@ -5,7 +5,7 @@ function CartItems(props){
     return (
         <div className='cart-item'>
           <img
-            src={`/public/products/${props.sku}_2.jpg`}
+            src={`products/${props.sku}_2.jpg`}
             alt=''
             width='80'
           />
